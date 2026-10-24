@@ -127,11 +127,6 @@ st.write(
     "whether it may be spam or not spam."
 )
 
-st.info(
-    "This is a demonstration model trained "
-    "on 80 example emails."
-)
-
 message = st.text_area(
     "Paste your email here:",
     height=180,
